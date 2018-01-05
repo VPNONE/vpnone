@@ -11,7 +11,7 @@ setup(
     license='http://www.apache.org/licenses/LICENSE-2.0',
     description="A fast tunnel proxy that help you get through firewalls",
     author='clowwindy',
-    author_email='clowwindy42@gmail.com',
+    author_email='support@vpn.one',
     url='https://github.com/vpnone/vpnone',
     packages=['vpnone', 'vpnone.crypto'],
     package_data={
