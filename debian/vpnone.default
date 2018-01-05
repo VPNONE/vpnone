@@ -1,0 +1,12 @@
+# Defaults for vpnone initscript
+# sourced by /etc/init.d/vpnone
+# installed at /etc/default/vpnone by the maintainer scripts
+
+USERID="nobody"
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DAEMON_OPTS="-q -c /etc/vpnone/config.json"

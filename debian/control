@@ -1,0 +1,24 @@
+Source: vpnone
+Section: python
+Priority: extra
+Maintainer: VPNONE <support@vpn.one>
+Build-Depends: debhelper (>= 8),
+               python-all,
+               python-setuptools,
+Standards-Version: 0.0.1
+Homepage: https://github.com/vpnone/vpnone
+Vcs-Git: https://github.com/vpnone/vpnone.git
+Vcs-Browser: https://github.com/vpnone/vpnone
+
+Package: vpnone
+Architecture: all
+Depends: lsb-base (>= 3.0-6),
+         python-m2crypto,
+         python-pkg-resources,
+         ${misc:Depends},
+         ${python:Depends},
+Description: Fast tunnel proxy that helps you bypass firewalls
+ A secure socks5 proxy, designed to protect your Internet traffic.
+ .
+ This package contain local and server part of vpnone, a fast,
+ powerful tunnel proxy to bypass firewalls.

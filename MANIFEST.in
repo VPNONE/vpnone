@@ -1,0 +1,3 @@
+recursive-include vpnone *.py
+include README.rst
+include LICENSE
